@@ -316,5 +316,6 @@
   "hq.view.header.item": "View Item",
   "hq.view.header.link": "View Link",
   "hq.view.header.media": "View Media Item",
-  "hq.view.header.uac_item": "Reported User Added Learning Item"
+  "hq.view.header.uac_item": "Reported User Added Learning Item",
+  "hq.view.header.new_section": "New Section"
 }
