@@ -1,0 +1,15 @@
+{
+  "fallbackLang": "en-gb",
+  "enabled": [
+    "en-gb",
+    "en-us",
+    "de-de",
+    "fr-ca",
+    "fr-fr",
+    "ja-jp",
+    "pt-br",
+    "es-mx",
+    "es-es",
+    "ko-kr"
+  ]
+}
