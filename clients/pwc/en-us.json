@@ -1,499 +1,321 @@
 {
-    "hq": {
-        "form": {
-            "button": {
-                "add": "Add",
-                "add_images": "Add Images",
-                "add_item": "Add Item",
-                "bold": "Bold",
-                "clear_formatting": "Clear formatting",
-                "download": "Download",
-                "editlog": "Edit Log",
-                "go": "Go!",
-                "heading": "Heading",
-                "indent": "Increase indent",
-                "insert_image": "Insert image",
-                "insert_link": "Insert / edit link",
-                "insert_video": "Insert video",
-                "italics": "Italic",
-                "justify_center": "Center text",
-                "justify_full": "Justify text",
-                "justify_left": "Align text left",
-                "justify_right": "Align text right",
-                "launch": "Launch Preview",
-                "metadata": "Metadata …",
-                "ol": "Ordered List",
-                "open": "Open in New Window",
-                "outdent": "Decrease indent",
-                "paragraph": "Paragraph",
-                "preformatted": "Preformatted text",
-                "preview": "Preview in a new window",
-                "publish": "Publish",
-                "quote": "Quote/unquote selection or paragraph",
-                "redo": "Redo",
-                "relink": "Relink",
-                "replace": "Replace",
-                "strike_through": "Strikethrough",
-                "taxonomy": "Taxonomy …",
-                "toggle_html": "Toggle html / Rich Text",
-                "ul": "Unordered List",
-                "underline": "Underline",
-                "undo": "Undo",
-                "unlink": "Unlink",
-                "update": "Update",
-                "upload": "Upload"
-            },
-            "header": {
-                "add": {
-                    "article": "Add Article",
-                    "composition": "Create Composition",
-                    "course": "Add Course",
-                    "imageset": "Create Image Set",
-                    "link": "Add Link",
-                    "media": "Add Media Item"
-                },
-                "publish": {
-                    "course": "Publish Course"
-                },
-                "update": {
-                    "article": "Update Article",
-                    "composition": "Update Composition",
-                    "course": "Update Course",
-                    "imageset": "Update Image Set",
-                    "item": "Update Item",
-                    "link": "Update Link",
-                    "media": "Update Media Item"
-                }
-            },
-            "helper": {
-                "file": {
-                    "course": "Upload SCORM of xAPI Package zip",
-                    "media": "Upload jpg, png, pdf, etc"
-                },
-                "thumbnail": "Crop the preview image to create a thumbnail."
-            },
-            "label": {
-                "active": "Active",
-                "advanced": "Advanced",
-                "author": "Author",
-                "availability_group": "Availability Group",
-                "characters": "Characters",
-                "comment": "Comment",
-                "content_id": "Content ID",
-                "control_tags": "Control Tags",
-                "created": "Created",
-                "created_by": "Created by",
-                "description": "Description",
-                "disable_comments": "Disable comments",
-                "disable_ratings": "Disable ratings",
-                "edited_by": "Edited by",
-                "exclude_from_recommendations": "Exclude from recommendations",
-                "feedback": "Feedback",
-                "fields": "Fields",
-                "file": {
-                    "course": "Package File",
-                    "media": "File Input"
-                },
-                "group": "Group",
-                "group_or": "OR",
-                "html": "HTML",
-                "items": "Items",
-                "modified": "Modified",
-                "owner": "Owner",
-                "preview": "Preview",
-                "reported": "Reported",
-                "search": "Search",
-                "source": "Source",
-                "subtitle": "Subtitle",
-                "tags": "Tags",
-                "thumbnail": "Thumbnail",
-                "tile_only": "Tile use only",
-                "title": "Title",
-                "training_minutes": "Training Minutes",
-                "url": "URL",
-                "words": "Words"
-            },
-            "message": {
-                "access_error": "You do not have access to edit this item.",
-                "allow_comment_error": "Allowing this comment failed. Check your network connection and try again.",
-                "allow_uac_error": "Allowing this learning item failed. Check your network connection and try again.",
-                "composition_error": "Unable to retrieve composition items.",
-                "creating_failed": "Creating failed. Check your network connection and try again.",
-                "load_error": "Unable to retrieve item:",
-                "remove_comment_error": "Removing this comment failed. Check your network connection and try again.",
-                "remove_uac_error": "Removing this learning item failed. Check your network connection and try again.",
-                "thumbnail": {
-                    "loading": "Loading"
-                },
-                "update_error": "Updating failed. Check your network connection and try again.",
-                "upload_error": "Upload failed. Check your network connection and try again."
-            },
-            "option": {
-                "select": "Select . . ."
-            },
-            "placeholder": {
-                "control_tags": {
-                    "article": "Enter control tags for the article",
-                    "composition": "Enter control tags for the composition",
-                    "course": "Enter control tags for the course",
-                    "imageset": "Enter control tags for the image set",
-                    "link": "Enter control tags for the link",
-                    "media": "Enter control tags for the media item"
-                },
-                "description": {
-                    "article": "Enter a description for the article (optional)",
-                    "composition": "Enter a description for the composition (optional)",
-                    "course": "Enter a description for the course (optional)",
-                    "imageset": "Enter a description for the image set (optional)",
-                    "link": "Enter a description for the link (optional)",
-                    "media": "Enter a description for the media item (optional)"
-                },
-                "subtitle": {
-                    "article": "Enter a subtitle for the article (optional)",
-                    "composition": "Enter a subtitle for the composition (optional)",
-                    "course": "Enter a subtitle for the course (optional)",
-                    "imageset": "Enter a subtitle for the image set (optional)",
-                    "link": "Enter a subtitle for the link (optional)",
-                    "media": "Enter a subtitle for the media item (optional)"
-                },
-                "tags": {
-                    "article": "Enter tags for the article (separate with commas)",
-                    "composition": "Enter tags for the composition (separate with commas)",
-                    "course": "Enter tags for the course (separate with commas)",
-                    "imageset": "Enter tags for the image set (separate with commas)",
-                    "link": "Enter tags for the link (separate with commas)",
-                    "media": "Enter tags for the media item (separate with commas)"
-                },
-                "title": {
-                    "article": "Enter a title for the article",
-                    "composition": "Enter a title for the composition",
-                    "course": "Enter a title for the course",
-                    "imageset": "Enter a title for the image set",
-                    "link": "Enter a title for the link",
-                    "media": "Enter a title for the media item"
-                },
-                "training_minutes": {
-                    "article": "Enter the number of training minutes for the article (optional)",
-                    "composition": "Enter the number of training minutes for the composition (optional)",
-                    "course": "Enter the number of training minutes for the course (optional)",
-                    "imageset": "Enter the number of training minutes for the image set (optional)",
-                    "link": "Enter the number of training minutes for the link (optional)",
-                    "media": "Enter the number of training minutes for the media item (optional)"
-                },
-                "url": {
-                    "link": "Enter a URL for the link"
-                }
-            },
-            "tooltip": {
-                "add": {
-                    "composition": "Add back to Composition",
-                    "imageset": "Add back to Image Set"
-                },
-                "collection": {
-                    "new": "This item will be added when the collection is updated",
-                    "removed": "This item will be removed when the collection is updated."
-                },
-                "remove": {
-                    "composition": "Remove from Composition",
-                    "imageset": "Remove from Image Set"
-                },
-                "thumbnail": "Edit thumbnail"
-            },
-            "validation": {
-                "control_tags": "Only enter pre-approved tags.",
-                "file_input": {
-                    "size": "This file is very large, and the upload might fail.",
-                    "type": "Please select a file of a pre-approved type."
-                },
-                "training_minutes": "Enter a whole number 0 or greater."
-            }
-        },
-        "header": {
-            "contentsphere": "ContentSphere HQ",
-            "other_tools": "Other tools",
-            "page_manager": "Page manager"
-        },
-        "list": {
-            "header": {
-                "articles": "Articles List",
-                "compositions": "Compositions List",
-                "courses": "Courses List",
-                "flagged_comments": "Flagged Comments List",
-                "links": "Links List",
-                "media": "Media List",
-                "uac": "Reported User Added Learning"
-            },
-            "helper": {
-                "reduce": "(reduce your search query)"
-            },
-            "item_count": "Displaying {{current_count}} of {{total_count}} total items",
-            "label": {
-                "inactive": "Include Inactive"
-            },
-            "message": {
-                "load_error": "Unable to load list of items",
-                "loading": "Loading data . . ."
-            },
-            "placeholder": {
-                "filter": "Filter"
-            },
-            "tag": {
-                "inactive": "Inactive"
-            }
-        },
-        "login": {
-            "button": {
-                "logging_in": "Logging In . . .",
-                "login": "Log In"
-            },
-            "header": "Login",
-            "label": {
-                "password": "Password",
-                "username": "Username"
-            },
-            "message": {
-                "access_denied": "Access denied. Please log in.",
-                "logged_out": "You have been logged out",
-                "login": "You need to log in first.",
-                "reset": "Your password has been reset. Please check your email for your new password.",
-                "reset_error": "Your password could not be reset. Please check that you have entered your username correctly.",
-                "resetting": "Resetting password...",
-                "role_error": "Sorry, your role does not permit access to Headquarters.",
-                "try_again": "Try again"
-            }
-        },
-        "modal": {
-            "about": {
-                "body": {
-                    "api": "API version:",
-                    "app": "HQ version:",
-                    "name": "ContentSphere HQ"
-                }
-            },
-            "adding": {
-                "header": "Adding . . ."
-            },
-            "allow_uac": {
-                "body": "Are you sure you want to allow this learning item to be activated again?",
-                "header": "Allow Learning Item?"
-            },
-            "allow": {
-                "body": "Are you sure you want to allow this comment to be displayed again?",
-                "header": "Allow Comment?"
-            },
-            "button": {
-                "no": "No",
-                "ok": "OK",
-                "save": "Save",
-                "switch": "Switch",
-                "yes": "Yes"
-            },
-            "collection": {
-                "button": {
-                    "add_item": "Add Item",
-                    "add_items": "Add Items",
-                    "close": "Close"
-                },
-                "header": {
-                    "add_image": "Add Image",
-                    "add_item": "Add Item"
-                }
-            },
-            "creating": {
-                "header": "Creating . . ."
-            },
-            "deactivate": {
-                "body": {
-                    "compositions": "This item is in the following compositions:"
-                },
-                "header": "Deactivate?"
-            },
-            "editlog": {
-                "header": "Edit Log"
-            },
-            "forgot": {
-                "body": "If you have forgotten your password, it can be reset, and a new one sent to your email.",
-                "header": "Reset Password?"
-            },
-            "group": {
-                "body": {
-                    "composition": "Check the groups for the items in this composition before changing its group.",
-                    "item": "Changing the group for this item could affect its availability in compositions."
-                },
-                "header": "Group Change"
-            },
-            "header": {
-                "about": "About",
-                "switch_group": "Switch Group"
-            },
-            "leave": {
-                "body": {
-                    "add": "Are you sure you want to leave? You started, but you should click Add to finish.",
-                    "edit": "Are you sure you want to leave? You have unsaved changes."
-                },
-                "header": "Leave?"
-            },
-            "metadata": {
-                "header": "Advanced Metadata",
-                "helper": "Start adding terms",
-                "placeholder": {
-                    "term": "Select term to add …",
-                    "value": "Enter metadata value"
-                }
-            },
-            "promote": {
-                "body": "Are you sure you want to promote \"{{item.title}}\" to global? Group administrators will no longer be able to manage this item.",
-                "header": "Promote to Global"
-            },
-            "publishing": {
-                "header": "Publishing . . ."
-            },
-            "remove_comment": {
-                "body": "Are you sure you want to permanently remove this comment?",
-                "header": "Remove Comment?"
-            },
-            "remove_uac": {
-                "body": "Are you sure you want to permanently remove this learning item?",
-                "header": "Remove Learning Item?"
-            },
-            "remove": {
-                "body": {
-                    "composition": "Are you sure you want to remove \"{{item.title}}\" from this composition?",
-                    "imageset": "Are you sure you want to remove \"{{item.title}}\" from this image set?"
-                },
-                "header": "Remove?",
-                "last": {
-                    "composition": "Removing the last item will cause this composition to be deactivated.",
-                    "imageset": "Removing the last item will cause this image set to be deactivated."
-                }
-            },
-            "taxonomy": {
-                "header": "Taxonomy"
-            },
-            "updating": {
-                "header": "Updating . . ."
-            },
-            "uploading": {
-                "header": "Uploading"
-            }
-        },
-        "navigation": {
-            "articles": "Articles",
-            "button": {
-                "add": "Add",
-                "allow": "Allow Comment",
-                "allow_uac": "Allow Learning Item",
-                "deactivate": "Deactivate",
-                "edit": "Edit",
-                "list": "List",
-                "promote": "Promote",
-                "remove": "Remove Comment",
-                "remove_uac": "Remove Learning Item"
-            },
-            "compositions": "Compositions",
-            "courses": "Courses",
-            "favorites": "Favorites",
-            "flagged_comments": "Flagged comments",
-            "links": "Links",
-            "list": "View List",
-            "logout": "Log out",
-            "manage": "Manage",
-            "media": "Media",
-            "search": "Search",
-            "settings": "Settings",
-            "toggle": "Toggle navigation",
-            "tooltip": {
-                "about": "About",
-                "add": {
-                    "article": "Add Article",
-                    "composition": "Add Composition",
-                    "course": "Add Course",
-                    "imageset": "Add Image Set",
-                    "link": "Add Link",
-                    "media": "Add Media Item"
-                },
-                "deactivate": {
-                    "article": "Deactivate this Article",
-                    "composition": "Deactivate this Composition",
-                    "course": "Deactivate this Course",
-                    "imageset": "Deactivate this Image Set",
-                    "link": "Deactivate this Link",
-                    "media": "Deactivate this Media item",
-                    "search": "Deactivate this Search result"
-                },
-                "edit": {
-                    "article": "Edit this Article",
-                    "composition": "Edit this Composition",
-                    "course": "Edit this Course",
-                    "imageset": "Edit this Image Set",
-                    "item": "Edit this Item",
-                    "link": "Edit this Link",
-                    "media": "Edit this Media item",
-                    "search": "Edit this Search result"
-                },
-                "list": {
-                    "articles": "List all Articles",
-                    "compositions": "List all Compositions",
-                    "courses": "List all Courses",
-                    "imagesets": "List all Image Sets",
-                    "links": "List all Links",
-                    "media": "List all Media"
-                }
-            },
-            "uac": "Reported User Added Learning"
-        },
-        "search": {
-            "header": "Search List",
-            "item_count": "Displaying {{total_count}} total items",
-            "message": {
-                "load_error": "Unable to load search results",
-                "loading": "Loading data . . .",
-                "no_results": "Sorry, we are unable to find any items related to your search."
-            },
-            "placeholder": {
-                "search": "Search"
-            }
-        },
-        "settings": {
-            "helper": {
-                "control_tags": "These are used for the autocomplete on the control tag fields.",
-                "export": "Download a CSV file of all items.",
-                "export_comments": "Download a CSV file of all comments.",
-                "export_compositions": "Download a CSV file of all compositions.",
-                "filter": "filtered by:",
-                "tags": "These are used for the autocomplete on the tag fields. Separate tags with a comma."
-            },
-            "label": {
-                "control_tags": "Control Tags",
-                "export": "Export"
-            },
-            "message": {
-                "download_failed": "Download failed. Try again.",
-                "download_successful": "Download successful",
-                "downloading": "Downloading . . ."
-            },
-            "placeholder": {
-                "tags": {
-                    "add": "Add a tag",
-                    "adding": "Adding . . .",
-                    "loading": "Loading . . .",
-                    "removing": "Removing . . ."
-                }
-            }
-        },
-        "view": {
-            "header": {
-                "article": "View Article",
-                "composition": "View Composition",
-                "course": "View Course",
-                "flagged_comment": "Flagged Comment",
-                "imageset": "View Image Set",
-                "item": "View Item",
-                "link": "View Link",
-                "media": "View Media Item",
-                "uac_item": "Reported User Added Learning Item",
-                "new_section": "New Section"
-            }
-        }
-    }
+    "hq.form.button.add": "Add",
+    "hq.form.button.add_images": "Add Images",
+    "hq.form.button.add_item": "Add Item",
+    "hq.form.button.bold": "Bold",
+    "hq.form.button.clear_formatting": "Clear formatting",
+    "hq.form.button.download": "Download",
+    "hq.form.button.editlog": "Edit Log",
+    "hq.form.button.go": "Go!",
+    "hq.form.button.heading": "Heading",
+    "hq.form.button.indent": "Increase indent",
+    "hq.form.button.insert_image": "Insert image",
+    "hq.form.button.insert_link": "Insert / edit link",
+    "hq.form.button.insert_video": "Insert video",
+    "hq.form.button.italics": "Italic",
+    "hq.form.button.justify_center": "Center text",
+    "hq.form.button.justify_full": "Justify text",
+    "hq.form.button.justify_left": "Align text left",
+    "hq.form.button.justify_right": "Align text right",
+    "hq.form.button.launch": "Launch Preview",
+    "hq.form.button.metadata": "Metadata …",
+    "hq.form.button.ol": "Ordered List",
+    "hq.form.button.open": "Open in New Window",
+    "hq.form.button.outdent": "Decrease indent",
+    "hq.form.button.paragraph": "Paragraph",
+    "hq.form.button.preformatted": "Preformatted text",
+    "hq.form.button.preview": "Preview in a new window",
+    "hq.form.button.publish": "Publish",
+    "hq.form.button.quote": "Quote/unquote selection or paragraph",
+    "hq.form.button.redo": "Redo",
+    "hq.form.button.relink": "Relink",
+    "hq.form.button.replace": "Replace",
+    "hq.form.button.strike_through": "Strikethrough",
+    "hq.form.button.taxonomy": "Taxonomy …",
+    "hq.form.button.toggle_html": "Toggle html / Rich Text",
+    "hq.form.button.ul": "Unordered List",
+    "hq.form.button.underline": "Underline",
+    "hq.form.button.undo": "Undo",
+    "hq.form.button.unlink": "Unlink",
+    "hq.form.button.update": "Update",
+    "hq.form.button.upload": "Upload",
+    "hq.form.header.add.article": "Add Article",
+    "hq.form.header.add.composition": "Create Composition",
+    "hq.form.header.add.course": "Add Course",
+    "hq.form.header.add.imageset": "Create Image Set",
+    "hq.form.header.add.link": "Add Link",
+    "hq.form.header.add.media": "Add Media Item",
+    "hq.form.header.publish.course": "Publish Course",
+    "hq.form.header.update.article": "Update Article",
+    "hq.form.header.update.composition": "Update Composition",
+    "hq.form.header.update.course": "Update Course",
+    "hq.form.header.update.imageset": "Update Image Set",
+    "hq.form.header.update.item": "Update Item",
+    "hq.form.header.update.link": "Update Link",
+    "hq.form.header.update.media": "Update Media Item",
+    "hq.form.helper.file.course": "Upload SCORM of xAPI Package zip",
+    "hq.form.helper.file.media": "Upload jpg, png, pdf, etc",
+    "hq.form.helper.thumbnail": "Crop the preview image to create a thumbnail.",
+    "hq.form.label.active": "Active",
+    "hq.form.label.advanced": "Advanced",
+    "hq.form.label.author": "Author",
+    "hq.form.label.availability_group": "Availability Group",
+    "hq.form.label.characters": "Characters",
+    "hq.form.label.comment": "Comment",
+    "hq.form.label.content_id": "Content ID",
+    "hq.form.label.control_tags": "Control Tags",
+    "hq.form.label.created": "Created",
+    "hq.form.label.created_by": "Created by",
+    "hq.form.label.description": "Description",
+    "hq.form.label.disable_comments": "Disable comments",
+    "hq.form.label.disable_ratings": "Disable ratings",
+    "hq.form.label.edited_by": "Edited by",
+    "hq.form.label.exclude_from_recommendations": "Exclude from recommendations",
+    "hq.form.label.feedback": "Feedback",
+    "hq.form.label.fields": "Fields",
+    "hq.form.label.file.course": "Package File",
+    "hq.form.label.file.media": "File Input",
+    "hq.form.label.group": "Group",
+    "hq.form.label.group_or": "OR",
+    "hq.form.label.html": "HTML",
+    "hq.form.label.items": "Items",
+    "hq.form.label.modified": "Modified",
+    "hq.form.label.owner": "Owner",
+    "hq.form.label.preview": "Preview",
+    "hq.form.label.reported": "Reported",
+    "hq.form.label.search": "Search",
+    "hq.form.label.source": "Source",
+    "hq.form.label.subtitle": "Subtitle",
+    "hq.form.label.tags": "Tags",
+    "hq.form.label.thumbnail": "Thumbnail",
+    "hq.form.label.tile_only": "Tile use only",
+    "hq.form.label.title": "Title",
+    "hq.form.label.training_minutes": "Training Minutes",
+    "hq.form.label.url": "URL",
+    "hq.form.label.words": "Words",
+    "hq.form.message.access_error": "You do not have access to edit this item.",
+    "hq.form.message.allow_comment_error": "Allowing this comment failed. Check your network connection and try again.",
+    "hq.form.message.allow_uac_error": "Allowing this learning item failed. Check your network connection and try again.",
+    "hq.form.message.composition_error": "Unable to retrieve composition items.",
+    "hq.form.message.creating_failed": "Creating failed. Check your network connection and try again.",
+    "hq.form.message.load_error": "Unable to retrieve item:",
+    "hq.form.message.remove_comment_error": "Removing this comment failed. Check your network connection and try again.",
+    "hq.form.message.remove_uac_error": "Removing this learning item failed. Check your network connection and try again.",
+    "hq.form.message.thumbnail.loading": "Loading",
+    "hq.form.message.update_error": "Updating failed. Check your network connection and try again.",
+    "hq.form.message.upload_error": "Upload failed. Check your network connection and try again.",
+    "hq.form.option.select": "Select . . .",
+    "hq.form.placeholder.control_tags.article": "Enter control tags for the article",
+    "hq.form.placeholder.control_tags.composition": "Enter control tags for the composition",
+    "hq.form.placeholder.control_tags.course": "Enter control tags for the course",
+    "hq.form.placeholder.control_tags.imageset": "Enter control tags for the image set",
+    "hq.form.placeholder.control_tags.link": "Enter control tags for the link",
+    "hq.form.placeholder.control_tags.media": "Enter control tags for the media item",
+    "hq.form.placeholder.description.article": "Enter a description for the article (optional)",
+    "hq.form.placeholder.description.composition": "Enter a description for the composition (optional)",
+    "hq.form.placeholder.description.course": "Enter a description for the course (optional)",
+    "hq.form.placeholder.description.imageset": "Enter a description for the image set (optional)",
+    "hq.form.placeholder.description.link": "Enter a description for the link (optional)",
+    "hq.form.placeholder.description.media": "Enter a description for the media item (optional)",
+    "hq.form.placeholder.subtitle.article": "Enter a subtitle for the article (optional)",
+    "hq.form.placeholder.subtitle.composition": "Enter a subtitle for the composition (optional)",
+    "hq.form.placeholder.subtitle.course": "Enter a subtitle for the course (optional)",
+    "hq.form.placeholder.subtitle.imageset": "Enter a subtitle for the image set (optional)",
+    "hq.form.placeholder.subtitle.link": "Enter a subtitle for the link (optional)",
+    "hq.form.placeholder.subtitle.media": "Enter a subtitle for the media item (optional)",
+    "hq.form.placeholder.tags.article": "Enter tags for the article (separate with commas)",
+    "hq.form.placeholder.tags.composition": "Enter tags for the composition (separate with commas)",
+    "hq.form.placeholder.tags.course": "Enter tags for the course (separate with commas)",
+    "hq.form.placeholder.tags.imageset": "Enter tags for the image set (separate with commas)",
+    "hq.form.placeholder.tags.link": "Enter tags for the link (separate with commas)",
+    "hq.form.placeholder.tags.media": "Enter tags for the media item (separate with commas)",
+    "hq.form.placeholder.title.article": "Enter a title for the article",
+    "hq.form.placeholder.title.composition": "Enter a title for the composition",
+    "hq.form.placeholder.title.course": "Enter a title for the course",
+    "hq.form.placeholder.title.imageset": "Enter a title for the image set",
+    "hq.form.placeholder.title.link": "Enter a title for the link",
+    "hq.form.placeholder.title.media": "Enter a title for the media item",
+    "hq.form.placeholder.training_minutes.article": "Enter the number of training minutes for the article (optional)",
+    "hq.form.placeholder.training_minutes.composition": "Enter the number of training minutes for the composition (optional)",
+    "hq.form.placeholder.training_minutes.course": "Enter the number of training minutes for the course (optional)",
+    "hq.form.placeholder.training_minutes.imageset": "Enter the number of training minutes for the image set (optional)",
+    "hq.form.placeholder.training_minutes.link": "Enter the number of training minutes for the link (optional)",
+    "hq.form.placeholder.training_minutes.media": "Enter the number of training minutes for the media item (optional)",
+    "hq.form.placeholder.url.link": "Enter a URL for the link",
+    "hq.form.tooltip.add.composition": "Add back to Composition",
+    "hq.form.tooltip.add.imageset": "Add back to Image Set",
+    "hq.form.tooltip.collection.new": "This item will be added when the collection is updated",
+    "hq.form.tooltip.collection.removed": "This item will be removed when the collection is updated.",
+    "hq.form.tooltip.remove.composition": "Remove from Composition",
+    "hq.form.tooltip.remove.imageset": "Remove from Image Set",
+    "hq.form.tooltip.thumbnail": "Edit thumbnail",
+    "hq.form.validation.control_tags": "Only enter pre-approved tags.",
+    "hq.form.validation.file_input.size": "This file is very large, and the upload might fail.",
+    "hq.form.validation.file_input.type": "Please select a file of a pre-approved type.",
+    "hq.form.validation.training_minutes": "Enter a whole number 0 or greater.",
+    "hq.header.contentsphere": "ContentSphere HQ",
+    "hq.header.other_tools": "Other tools",
+    "hq.header.page_manager": "Page manager",
+    "hq.list.header.articles": "Articles List",
+    "hq.list.header.compositions": "Compositions List",
+    "hq.list.header.courses": "Courses List",
+    "hq.list.header.flagged_comments": "Flagged Comments List",
+    "hq.list.header.links": "Links List",
+    "hq.list.header.media": "Media List",
+    "hq.list.header.uac": "Reported User Added Learning",
+    "hq.list.helper.reduce": "(reduce your search query)",
+    "hq.list.item_count": "Displaying {{current_count}} of {{total_count}} total items",
+    "hq.list.label.inactive": "Include Inactive",
+    "hq.list.message.load_error": "Unable to load list of items",
+    "hq.list.message.loading": "Loading data . . .",
+    "hq.list.placeholder.filter": "Filter",
+    "hq.list.tag.inactive": "Inactive",
+    "hq.login.button.logging_in": "Logging In . . .",
+    "hq.login.button.login": "Log In",
+    "hq.login.header": "Login",
+    "hq.login.label.password": "Password",
+    "hq.login.label.username": "Username",
+    "hq.login.message.access_denied": "Access denied. Please log in.",
+    "hq.login.message.logged_out": "You have been logged out",
+    "hq.login.message.login": "You need to log in first.",
+    "hq.login.message.reset": "Your password has been reset. Please check your email for your new password.",
+    "hq.login.message.reset_error": "Your password could not be reset. Please check that you have entered your username correctly.",
+    "hq.login.message.resetting": "Resetting password...",
+    "hq.login.message.role_error": "Sorry, your role does not permit access to Headquarters.",
+    "hq.login.message.try_again": "Try again",
+    "hq.modal.about.body.api": "API version:",
+    "hq.modal.about.body.app": "HQ version:",
+    "hq.modal.about.body.name": "ContentSphere HQ",
+    "hq.modal.adding.header": "Adding . . .",
+    "hq.modal.allow_uac.body": "Are you sure you want to allow this learning item to be activated again?",
+    "hq.modal.allow_uac.header": "Allow Learning Item?",
+    "hq.modal.allow.body": "Are you sure you want to allow this comment to be displayed again?",
+    "hq.modal.allow.header": "Allow Comment?",
+    "hq.modal.button.no": "No",
+    "hq.modal.button.ok": "OK",
+    "hq.modal.button.save": "Save",
+    "hq.modal.button.switch": "Switch",
+    "hq.modal.button.yes": "Yes",
+    "hq.modal.collection.button.add_item": "Add Item",
+    "hq.modal.collection.button.add_items": "Add Items",
+    "hq.modal.collection.button.close": "Close",
+    "hq.modal.collection.header.add_image": "Add Image",
+    "hq.modal.collection.header.add_item": "Add Item",
+    "hq.modal.creating.header": "Creating . . .",
+    "hq.modal.deactivate.body.compositions": "This item is in the following compositions:",
+    "hq.modal.deactivate.header": "Deactivate?",
+    "hq.modal.editlog.header": "Edit Log",
+    "hq.modal.forgot.body": "If you have forgotten your password, it can be reset, and a new one sent to your email.",
+    "hq.modal.forgot.header": "Reset Password?",
+    "hq.modal.group.body.composition": "Check the groups for the items in this composition before changing its group.",
+    "hq.modal.group.body.item": "Changing the group for this item could affect its availability in compositions.",
+    "hq.modal.group.header": "Group Change",
+    "hq.modal.header.about": "About",
+    "hq.modal.header.switch_group": "Switch Group",
+    "hq.modal.leave.body.add": "Are you sure you want to leave? You started, but you should click Add to finish.",
+    "hq.modal.leave.body.edit": "Are you sure you want to leave? You have unsaved changes.",
+    "hq.modal.leave.header": "Leave?",
+    "hq.modal.metadata.header": "Advanced Metadata",
+    "hq.modal.metadata.helper": "Start adding terms",
+    "hq.modal.metadata.placeholder.term": "Select term to add …",
+    "hq.modal.metadata.placeholder.value": "Enter metadata value",
+    "hq.modal.promote.body": "Are you sure you want to promote \"{{item.title}}\" to global? Group administrators will no longer be able to manage this item.",
+    "hq.modal.promote.header": "Promote to Global",
+    "hq.modal.publishing.header": "Publishing . . .",
+    "hq.modal.remove_comment.body": "Are you sure you want to permanently remove this comment?",
+    "hq.modal.remove_comment.header": "Remove Comment?",
+    "hq.modal.remove_uac.body": "Are you sure you want to permanently remove this learning item?",
+    "hq.modal.remove_uac.header": "Remove Learning Item?",
+    "hq.modal.remove.body.composition": "Are you sure you want to remove \"{{item.title}}\" from this composition?",
+    "hq.modal.remove.body.imageset": "Are you sure you want to remove \"{{item.title}}\" from this image set?",
+    "hq.modal.remove.header": "Remove?",
+    "hq.modal.remove.last.composition": "Removing the last item will cause this composition to be deactivated.",
+    "hq.modal.remove.last.imageset": "Removing the last item will cause this image set to be deactivated.",
+    "hq.modal.taxonomy.header": "Taxonomy",
+    "hq.modal.updating.header": "Updating . . .",
+    "hq.modal.uploading.header": "Uploading",
+    "hq.navigation.articles": "Articles",
+    "hq.navigation.button.add": "Add",
+    "hq.navigation.button.allow": "Allow Comment",
+    "hq.navigation.button.allow_uac": "Allow Learning Item",
+    "hq.navigation.button.deactivate": "Deactivate",
+    "hq.navigation.button.edit": "Edit",
+    "hq.navigation.button.list": "List",
+    "hq.navigation.button.promote": "Promote",
+    "hq.navigation.button.remove": "Remove Comment",
+    "hq.navigation.button.remove_uac": "Remove Learning Item",
+    "hq.navigation.compositions": "Compositions",
+    "hq.navigation.courses": "Courses",
+    "hq.navigation.favorites": "Favorites",
+    "hq.navigation.flagged_comments": "Flagged comments",
+    "hq.navigation.links": "Links",
+    "hq.navigation.list": "View List",
+    "hq.navigation.logout": "Log out",
+    "hq.navigation.manage": "Manage",
+    "hq.navigation.media": "Media",
+    "hq.navigation.search": "Search",
+    "hq.navigation.settings": "Settings",
+    "hq.navigation.toggle": "Toggle navigation",
+    "hq.navigation.tooltip.about": "About",
+    "hq.navigation.tooltip.add.article": "Add Article",
+    "hq.navigation.tooltip.add.composition": "Add Composition",
+    "hq.navigation.tooltip.add.course": "Add Course",
+    "hq.navigation.tooltip.add.imageset": "Add Image Set",
+    "hq.navigation.tooltip.add.link": "Add Link",
+    "hq.navigation.tooltip.add.media": "Add Media Item",
+    "hq.navigation.tooltip.deactivate.article": "Deactivate this Article",
+    "hq.navigation.tooltip.deactivate.composition": "Deactivate this Composition",
+    "hq.navigation.tooltip.deactivate.course": "Deactivate this Course",
+    "hq.navigation.tooltip.deactivate.imageset": "Deactivate this Image Set",
+    "hq.navigation.tooltip.deactivate.link": "Deactivate this Link",
+    "hq.navigation.tooltip.deactivate.media": "Deactivate this Media item",
+    "hq.navigation.tooltip.deactivate.search": "Deactivate this Search result",
+    "hq.navigation.tooltip.edit.article": "Edit this Article",
+    "hq.navigation.tooltip.edit.composition": "Edit this Composition",
+    "hq.navigation.tooltip.edit.course": "Edit this Course",
+    "hq.navigation.tooltip.edit.imageset": "Edit this Image Set",
+    "hq.navigation.tooltip.edit.item": "Edit this Item",
+    "hq.navigation.tooltip.edit.link": "Edit this Link",
+    "hq.navigation.tooltip.edit.media": "Edit this Media item",
+    "hq.navigation.tooltip.edit.search": "Edit this Search result",
+    "hq.navigation.tooltip.list.articles": "List all Articles",
+    "hq.navigation.tooltip.list.compositions": "List all Compositions",
+    "hq.navigation.tooltip.list.courses": "List all Courses",
+    "hq.navigation.tooltip.list.imagesets": "List all Image Sets",
+    "hq.navigation.tooltip.list.links": "List all Links",
+    "hq.navigation.tooltip.list.media": "List all Media",
+    "hq.navigation.uac": "Reported User Added Learning",
+    "hq.search.header": "Search List",
+    "hq.search.item_count": "Displaying {{total_count}} total items",
+    "hq.search.message.load_error": "Unable to load search results",
+    "hq.search.message.loading": "Loading data . . .",
+    "hq.search.message.no_results": "Sorry, we are unable to find any items related to your search.",
+    "hq.search.placeholder.search": "Search",
+    "hq.settings.helper.control_tags": "These are used for the autocomplete on the control tag fields.",
+    "hq.settings.helper.export": "Download a CSV file of all items.",
+    "hq.settings.helper.export_comments": "Download a CSV file of all comments.",
+    "hq.settings.helper.export_compositions": "Download a CSV file of all compositions.",
+    "hq.settings.helper.filter": "filtered by:",
+    "hq.settings.helper.tags": "These are used for the autocomplete on the tag fields. Separate tags with a comma.",
+    "hq.settings.label.control_tags": "Control Tags",
+    "hq.settings.label.export": "Export",
+    "hq.settings.message.download_failed": "Download failed. Try again.",
+    "hq.settings.message.download_successful": "Download successful",
+    "hq.settings.message.downloading": "Downloading . . .",
+    "hq.settings.placeholder.tags.add": "Add a tag",
+    "hq.settings.placeholder.tags.adding": "Adding . . .",
+    "hq.settings.placeholder.tags.loading": "Loading . . .",
+    "hq.settings.placeholder.tags.removing": "Removing . . .",
+    "hq.view.header.article": "View Article",
+    "hq.view.header.composition": "View Composition",
+    "hq.view.header.course": "View Course",
+    "hq.view.header.flagged_comment": "Flagged Comment",
+    "hq.view.header.imageset": "View Image Set",
+    "hq.view.header.item": "View Item",
+    "hq.view.header.link": "View Link",
+    "hq.view.header.media": "View Media Item",
+    "hq.view.header.uac_item": "Reported User Added Learning Item",
+    "hq.view.header.new_section": "New Section",
+    "hq.modal.deactivate.body": "Are you sure you want to deactivate \"{{item.title}}\"?",
+    "hq.modal.remove.body": "Are you sure you want to remove \"{{item.title}}\" from \"{{composition.title}}\"?"
 }
